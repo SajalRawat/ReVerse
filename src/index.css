@@ -134,3 +134,14 @@
     @apply bg-background text-foreground;
     }
 }
+
+
+.animation{
+    animation: myAnimation 2s ease-in-out  alternate infinite;
+    
+}
+
+@keyframes myAnimation {
+  from {}
+  to {scale: 1.2;}
+}
