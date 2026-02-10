@@ -141,7 +141,26 @@
     
 }
 
+.float{
+        animation: float 2s ease-in-out  alternate infinite;
+
+}
+
 @keyframes myAnimation {
   from {}
   to {scale: 1.2;}
 }
+
+@keyframes float {
+  0% {
+    transform: translateY(0px); /* Start at the original position */
+  }
+  50% {
+    transform: translateY(-5px); /* Move 20px up */
+  }
+  100% {
+    transform: translateY(0px); /* Return to the original position */
+  }
+}
+
+

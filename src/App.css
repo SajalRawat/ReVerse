@@ -1,5 +1,5 @@
 * {
-  transition: all 0.5s ease-in-out;
+  transition: all 0.25s ease-in-out;
   /* cursor: none; */
 }
 
@@ -8,4 +8,8 @@
   transform: translateZ(10px);
   scale: 1.1;
 
+}
+
+.navButtons:hover{
+  color:rgba(244, 244, 29, 0.993)
 }
