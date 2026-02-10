@@ -4,8 +4,8 @@ const Navbar = () => {
   return (
     <div className='w-full p-2 py-4 flex justify-around cursor-pointer items-center 
    sm:flex-row flex-col bg-black sm:border-b-1 sm:border-white'>
-        <p className='animation mainfont text-white 
-       sm:text-[36px] text-[36px] py-1'>ReVerse 9.0</p>
+        <p className=' mainfont text-white 
+       sm:text-[36px] text-[36px] py-1'>ReVerse <span className='text-yellow-300'>9.0</span></p>
       <ul className='text-white mainfont m-1 flex items-center gap-5  text-[16px] sm:text-[20px]'>
         <li className='navButtons'>Participate</li>
         <li className='navButtons'>Perks</li>

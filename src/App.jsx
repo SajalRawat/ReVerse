@@ -1,17 +1,15 @@
 import { useState } from 'react'
 import Stalk from "/Stalk.svg"
 import FlowerComponents from './components/Flower'
-// import SunCursor from './components/SunCursor'
 import Statue from '/statueEye.svg'
 import NavBar from './components/Navbar'
 import HeroTitle  from './components/HeroTitle'
 import Line from './components/Line'
 import Timer from './components/Timer'
 import About from './components/About'
-import TrueFocus from './components/TrueFocus';
-import sunFlower from '/sunflowerSticker.svg'
-
+import LineWhite from './components/LineWhite'
 import './App.css'
+import Participate from './components/Participate'
 
 
 function App() {
@@ -35,6 +33,8 @@ function App() {
     <Timer/>
       <Line />
       <About/>
+      <LineWhite/>
+      <Participate/>
 
     </div>
   )
