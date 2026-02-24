@@ -14,6 +14,7 @@ import Perks from './components/Perks'
 import Sponsor from './components/Sponsor'
 import Team from './components/Team'
 import ScrollToTop from './components/ScrollToTop'
+import Goodies from './components/Goodies'
 
 
 function App() {
@@ -41,6 +42,7 @@ function App() {
       <Participate/>
       <Line/> 
       <Perks/>
+      <Goodies/>
       <LineWhite/>
       <Sponsor/>
       <Line/>

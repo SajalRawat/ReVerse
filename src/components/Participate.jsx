@@ -1,6 +1,7 @@
 import React from 'react'
 import Folder from './Folder'
 import CircularGallery from './CircularGallery'
+import ManSunflower from '/manSunflower.svg'
 const Participate = () => {
 
     const customImages = [
@@ -30,11 +31,14 @@ const Participate = () => {
                 </div>
 
             </div>
-            <p className='mainfont text-[36px] text-white mx-10 my-2'>Why Participate?</p>
-            <p className='font-mono mx-10 text-[18px] sm:text-[20px] text-white'>
+            <p className='mainfont text-[36px] text-white mx-10 my-6'>Why Participate?</p>
+            <div className='sm:flex items-center mx-10'>
+                <img src={ManSunflower} alt="" className='sm:w-[2000px] my-6' />
+            <p className='font-mono  text-[18px] sm:text-[24px] text-white'>
                 <span className='mainfont'>To write poetry is to find meaning, find reasons.</span> And only to speak up is to take the smallest action. What lies on sheets of paper appeals, but only what is said out loud, can make a change. For the days we spend are only counted by what we leave behind, we must strive to etch our voice in the stone of passing time.
             </p>
-                <p className='mainfont text-[42px] mt-4 text-white mx-10 my-2'>Make <span className='text-yellow-300'>Memories</span></p>
+            </div>
+                <p className='mainfont text-[42px] mt-8 text-white mx-10 my-2'>Make <span className='text-yellow-300'>Memories</span></p>
 
             <div className=' w-full px-2 flex justify-center'>
             </div>
