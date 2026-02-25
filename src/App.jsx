@@ -15,6 +15,7 @@ import Sponsor from './components/Sponsor'
 import Team from './components/Team'
 import ScrollToTop from './components/ScrollToTop'
 import Goodies from './components/Goodies'
+import Footer from './components/Footer'
 
 
 function App() {
@@ -49,6 +50,7 @@ function App() {
       <Team/>
       <LineWhite/>
       <ScrollToTop />
+      <Footer/>
     </div>
   )
 }
