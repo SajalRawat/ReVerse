@@ -50,6 +50,7 @@ const Participate = () => {
                         textColor="#ffdf20"
                         borderRadius={0.08}
                         scrollSpeed={1.5}
+        
                         scrollEase={0.08}
                     />
                 </div>

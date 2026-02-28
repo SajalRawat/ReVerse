@@ -15,7 +15,6 @@ const Perks = () => {
             </p>
 </div>
 <div className='flex mt-10 mainfont flex-col items-center '>
-    <img src={PerksIMG} alt="" className='float sm:w-[800px] w-[400px]' />
 
     <p className='text-[48px] float'>1st Prize</p>
     <p className='font-mono mb-[6px] text-[12px] sm:text-[20px]'>The one who leaves an ever-fixèd mark</p>
@@ -23,6 +22,7 @@ const Perks = () => {
     <p className='font-mono mb-[4px] text-[12px] sm:text-[20px]'>A strong calling from the lesser travelled road</p>
     <p className='text-[25px] float'>3rd Prize</p>
     <p className='font-mono mb-[2px] text-[12px] sm:text-[20px]'>Hark! There's another who can move mountains</p>
+    <img src={PerksIMG} alt="" className='float sm:w-[800px] w-[400px]' />
 
 
 

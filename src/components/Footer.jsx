@@ -35,14 +35,14 @@ const Footer = () => {
 
   </div>
 </div>
-<div className='w-[90vw] mt-[20px] sm:mt-[100px]'>
+<div className='w-[90vw] mt-[20px] sm:mt-[40px]'>
         <CurvedLoop 
   marqueeText="Made with ❤️ by MagBoard ✦"
   speed={1}
   curveAmount={0}
   direction="right"
   interactive
-  className="custom-text-style mainfont tracking-wide"
+  className="custom-text-style mainfont tracking-wide text-[36px]"
 />
 </div>
     </div>
