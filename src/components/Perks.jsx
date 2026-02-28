@@ -1,5 +1,5 @@
 import React from 'react'
-
+import PerksIMG from '/Perks.svg'
 const Perks = () => {
   return (
     <div id='perks' className='bg-white w-full'>
@@ -15,6 +15,7 @@ const Perks = () => {
             </p>
 </div>
 <div className='flex mt-10 mainfont flex-col items-center '>
+    <img src={PerksIMG} alt="" className='float sm:w-[800px] w-[400px]' />
 
     <p className='text-[48px] float'>1st Prize</p>
     <p className='font-mono mb-[6px] text-[12px] sm:text-[20px]'>The one who leaves an ever-fixèd mark</p>
