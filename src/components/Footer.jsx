@@ -24,7 +24,7 @@ const Footer = () => {
         <p className='text-yellow-300 mt-3 text-[22px]'>Hemant Rai</p>
         <p className='text-white mt-3 text-[22px]'>+91 8009914672</p>
 </div>  <div>
-        <p className='text-yellow-300 mt-3 text-[22px]'>Milan Patra</p>
+        <p className='text-yellow-300 mt-3 text-[22px]'>Millan Patra</p>
         <p className='text-white mt-3 text-[22px]'>+91 9156384972</p>
 </div>
       

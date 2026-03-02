@@ -1,8 +1,9 @@
+import { div } from "motion/react-client";
 import React from "react";
 
 const ExploreButton = ({ onClick }) => {
   return (
-    <>
+    <div>
       <button className="explore-button" onClick={onClick}>
         <svg
           className="svgIcon"
@@ -51,7 +52,7 @@ const ExploreButton = ({ onClick }) => {
           }
         `}
       </style>
-    </>
+    </div>
   );
 };
 

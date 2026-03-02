@@ -4,7 +4,7 @@ import MagBlack from '/magBlack.svg'
 
 const About = () => {
   return (
-    <div className='bg-white w-full flex flex-col items-center'>
+    <div className='bg-white w-full flex flex-col items-center' id='brochure'>
       <div className='mainfont flex justify-center sm:text-[46px] text-[36px] gap-2 float'>
         <span className='text-black'>About</span>
         <span className=''>Reverse</span>
