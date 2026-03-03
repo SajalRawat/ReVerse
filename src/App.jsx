@@ -16,6 +16,7 @@ import Team from './components/Team'
 import ScrollToTop from './components/ScrollToTop'
 import Goodies from './components/Goodies'
 import Footer from './components/Footer'
+import ContactUs from './components/ContactUs'
 import Particles from './components/Particles';
 
 
@@ -62,8 +63,9 @@ function App() {
         <LineWhite />
         <Sponsor />
         <Line />
+        <ContactUs/>
+        <LineWhite/>
         <Team />
-        <LineWhite />
         <ScrollToTop />
         <Footer />
       </div>

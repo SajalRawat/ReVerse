@@ -29,7 +29,6 @@ const ExploreButton = ({ onClick }) => {
             cursor: pointer;
             padding: 0.6em 1.4em;
             transition: all 0.4s ease;
-            box-shadow: 0 8px 18px rgba(0, 0, 0, 0.18);
           }
 
           .svgIcon {

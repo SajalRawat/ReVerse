@@ -4,7 +4,7 @@ const Map = () => {
   return (
     <div>
       <div class="relative w-full h-[400px] border-5 border-yellow-300 rounded-2xl">
-  <div class="w-full h-full overflow-hidden bg-transparent">
+  <div class="w-full h-full overflow-hidden bg-transparent border rounded-xl">
     <iframe
       class="w-full h-full"
       frameborder="0"

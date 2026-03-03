@@ -37,7 +37,7 @@ const Footer = () => {
 </div>
 <div className='w-[90vw] mt-[20px] sm:mt-[40px]'>
         <CurvedLoop 
-  marqueeText="Made with ❤️ by MagBoard ✦"
+  marqueeText="Made with ❤️ by Sajal ✦"
   speed={1}
   curveAmount={0}
   direction="right"

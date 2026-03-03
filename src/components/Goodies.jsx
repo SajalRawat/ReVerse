@@ -7,6 +7,7 @@ const Goodies = () => {
         <p className='sm:text-[46px] text-[36px] float'>Goodies</p>
       </div>
       <Lanyard position={[0, 0, 20]} gravity={[0, -40, 0]} />
+      <p className='mainfont sm:text-[36px] text-[20px] text-center'>Pull the Card :)</p>
     </div>
   )
 }

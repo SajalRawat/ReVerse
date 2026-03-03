@@ -5,15 +5,15 @@ import ManSunflower from '/manSunflower.svg'
 const Participate = () => {
 
     const customImages = [
-        { image: '/Memories/mem1.jpeg', text: 'Memory 1' },
-        { image: '/Memories/mem2.jpeg', text: 'Memory 2' },
-        { image: '/Memories/mem3.jpeg', text: 'Memory 3' },
-        { image: '/Memories/mem4.jpeg', text: 'Memory 4' },
-        { image: '/Memories/mem5.jpeg', text: 'Memory 5' },
-        { image: '/Memories/mem6.jpeg', text: 'Memory 6' },
-        { image: '/Memories/mem7.jpeg', text: 'Memory 7' },
-        { image: '/Memories/mem8.jpeg', text: 'Memory 8' },
-        { image: '/Memories/mem9.jpeg', text: 'Memory 9' }
+        { image: '/Memories/mem1.jpeg', text: '' },
+        { image: '/Memories/mem2.jpeg', text: '' },
+        { image: '/Memories/mem3.jpeg', text: '' },
+        { image: '/Memories/mem4.jpeg', text: '' },
+        { image: '/Memories/mem5.jpeg', text: '' },
+        { image: '/Memories/mem6.jpeg', text: '' },
+        { image: '/Memories/mem7.jpeg', text: '' },
+        { image: '/Memories/mem8.jpeg', text: '' },
+        { image: '/Memories/mem9.jpeg', text: '' }
     ];
     return (
         <div className='bg-black w-screen overflow-x-hidden' id='participate'>
