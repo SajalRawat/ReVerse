@@ -1,10 +1,10 @@
 import { div } from "motion/react-client";
 import React from "react";
 
-const ExploreButton = ({ onClick }) => {
+const ExploreButton = () => {
   return (
     <div>
-      <button className="explore-button" onClick={onClick}>
+      <button className="explore-button" onClick={()=>{window.open('https://drive.google.com/drive/folders/1vvwNJlircOqbWg3Wu4Bk60FoxG2_MkZi?usp=sharing','_blank')}}>
         <svg
           className="svgIcon"
           viewBox="0 0 512 512"
