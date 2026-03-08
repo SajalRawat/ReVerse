@@ -10,7 +10,7 @@ const Timer = () => {
 
   useEffect(() => {
     const calculateTimeLeft = () => {
-      const targetDate = new Date(2026, 2, 24).getTime(); // March 24, 2026
+      const targetDate = new Date(2026, 3, 11).getTime(); // April 11, 2026
       const now = new Date().getTime();
       const difference = targetDate - now;
 

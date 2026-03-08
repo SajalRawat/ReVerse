@@ -51,7 +51,11 @@ function App() {
             Register Now!
           </button>
         </div>
+        <div className='mainfont mt-5'>
+          <p className=' text-white sm:text-[48px] text-[24px] flex items-center  justify-center gap-3'>  <p className='float'>Early Bird </p> <span className='text-yellow-300'>Offer</span> <span className='sm:text-[56px] float block text-[24px]' >₹99</span>
+          </p>
 
+        </div>
         <Timer />
         <Line />
         <About />
