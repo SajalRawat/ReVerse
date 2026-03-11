@@ -24,16 +24,19 @@ const Participate = () => {
 
 
 
-                <div style={{ height: '190px', position: 'relative' }} className='mt-20 mx-auto'>
+                <div style={{ height: '190px', position: 'relative' }} className='mt-25 mx-auto'>
                     <Folder size={2} className="custom-folder"
                         color="#ffdf20"
                     />
                 </div>
+                <p className='mainfont float  text-white sm:text-[24px] text-[18px] mb-[14px] '>
+                    Click the folder. Claim your stage.
+                </p>
 
             </div>
             <p className='mainfont text-[36px] text-white mx-10 my-6'>Why Participate?</p>
-            <div className='sm:flex items-center mx-10'>
-                <img src={ManSunflower} alt="" className='sm:w-[2000px] my-6' />
+            <div className='sm:flex flex flex-col sm:flex-row items-center mx-10 justify-center'>
+                <img src={ManSunflower} alt="" className='sm:w-[2000px] my-6 ' />
             <p className='font-mono  text-[18px] sm:text-[24px] text-white'>
                 <span className='mainfont'>To write poetry is to find meaning, find reasons.</span> And only to speak up is to take the smallest action. What lies on sheets of paper appeals, but only what is said out loud, can make a change. For the days we spend are only counted by what we leave behind, we must strive to etch our voice in the stone of passing time.
             </p>
