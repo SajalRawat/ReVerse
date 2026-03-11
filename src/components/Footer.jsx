@@ -10,7 +10,7 @@ const Footer = () => {
 <div className=' bg-black mt-3 sm:flex' >
   <div className='flex flex-col justify-center items-center mx-2 '>
   <img src={magYellow} className='sm:w-[700px] w-[300px] float' alt="" />
-  <p  className='mainfont text-white hover:text-yellow-300 text-[40px] text-center'>Register Now</p>
+  <a href="https://docs.google.com/forms/d/e/1FAIpQLSfdbQQKJ6OeS1JosZ5SEnteyIQYxisw8cOASfdPjbMayMRvxw/viewform?fbzx=4336072177053565718" target='_blank'><p  className='mainfont text-white hover:text-yellow-300 text-[40px] text-center'>Register Now</p></a>
   </div>
   <div className='mx-[10px] mt-6 w-full'>
     <div>

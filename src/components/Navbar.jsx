@@ -20,7 +20,9 @@ const Navbar = () => {
 
       {/* Desktop Button */}
       <div className="bg-white sm:block hidden flex items-center justify-center m-3">
-        <button className="px-6 float mainfont py-2 font-medium bg-yellow-300 text-black w-fit transition-all shadow-[3px_3px_0px_black] hover:shadow-none hover:translate-x-[3px] hover:translate-y-[3px]">
+        <button className="px-6 float mainfont py-2 font-medium bg-yellow-300 text-black w-fit transition-all shadow-[3px_3px_0px_black] hover:shadow-none hover:translate-x-[3px] hover:translate-y-[3px]" onClick={()=>{
+          window.open('https://docs.google.com/forms/d/e/1FAIpQLSfdbQQKJ6OeS1JosZ5SEnteyIQYxisw8cOASfdPjbMayMRvxw/viewform?fbzx=4336072177053565718','_blank')
+        }}>
           Register Now!
         </button>
       </div>

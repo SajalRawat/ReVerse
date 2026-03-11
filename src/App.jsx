@@ -47,13 +47,16 @@ function App() {
         </div>
         <HeroTitle />
         <div className="bg-white  flex items-center justify-center m-3">
-          <button className="px-6 float mainfont py-2 font-medium bg-yellow-300  sm:text-[36px] text-black w-fit transition-all shadow-[3px_3px_0px_black] hover:shadow-none hover:translate-x-[3px] hover:translate-y-[3px] ">
+          <button className="px-6 float mainfont py-2 font-medium bg-yellow-300  sm:text-[36px] text-black w-fit transition-all shadow-[3px_3px_0px_black] hover:shadow-none hover:translate-x-[3px] hover:translate-y-[3px] " onClick={()=>{
+          window.open('https://docs.google.com/forms/d/e/1FAIpQLSfdbQQKJ6OeS1JosZ5SEnteyIQYxisw8cOASfdPjbMayMRvxw/viewform?fbzx=4336072177053565718','_blank')
+        }}>
             Register Now!
           </button>
         </div>
         <div className='mainfont mt-5'>
-          <p className=' text-white sm:text-[48px] text-[24px] flex items-center  justify-center gap-3'>  <p className='float'>Early Bird </p> <span className='text-yellow-300'>Offer</span> <span className='sm:text-[56px] float block text-[24px]' >₹99</span>
+          <p className=' text-white sm:text-[48px] text-[24px] flex items-center  justify-center gap-3'>  <p className='float'>Early Bird </p> <span className='text-yellow-300'>Offer</span> <span className='line-through'> ₹149 </span><span className='sm:text-[56px] float block text-[24px]' >₹99</span>
           </p>
+          <p className='text-red-300 text-center float ' >* Only Till 19th March</p>
 
         </div>
         <Timer />

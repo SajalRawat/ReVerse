@@ -80,7 +80,7 @@ const Folder = ({ color = '#5227FF', size = 1, items = [], className = '' }) => 
   };
 
   return (
-    <div style={scaleStyle} className={className} onClick={()=>{window.location.href = 'https://www.example.com/new-page'}}>
+    <div style={scaleStyle} className={className} onClick={()=>{window.location.href = 'https://docs.google.com/forms/d/e/1FAIpQLSfdbQQKJ6OeS1JosZ5SEnteyIQYxisw8cOASfdPjbMayMRvxw/viewform?fbzx=4336072177053565718'}}>
       <div
         className={`group relative transition-all duration-200 ease-in cursor-pointer ${
           !open ? 'hover:-translate-y-2' : ''
