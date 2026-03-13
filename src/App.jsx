@@ -58,7 +58,7 @@ function App() {
           </p>
           <p className='text-red-300 text-center float ' >* Only Till 19th March</p>
           <p className='text-white sm:text-[24px] text-center text-[18px] mt-[10px] float'>
-            * Discounted Price of <span className='text-yellow-300'> ₹69 </span> for <span className='text-yellow-300'>AIT</span> Students :)
+            ( Discounted Price of <span className='text-yellow-300'> ₹69 </span> for <span className='text-yellow-300'>AIT</span> Students )
           </p>
 
         </div>
