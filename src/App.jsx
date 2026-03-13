@@ -57,7 +57,7 @@ function App() {
           <p className=' text-white sm:text-[48px] text-[24px] flex items-center  justify-center gap-3'>  <p className='float'>Early Bird </p> <span className='text-yellow-300'>Offer</span> <span className='line-through'> ₹149 </span><span className='sm:text-[56px] float block text-[24px]' >₹99</span>
           </p>
           <p className='text-red-300 text-center float ' >* Only Till 19th March</p>
-          <p className='text-white sm:text-[24px] text-center text-[18px] mt-[10px] float'>
+          <p className='text-white sm:text-[24px] text-center text-[16px] mt-[10px] float'>
             ( Discounted Price of <span className='text-yellow-300'> ₹69 </span> for <span className='text-yellow-300'>AIT</span> Students )
           </p>
 
